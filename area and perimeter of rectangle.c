@@ -11,3 +11,4 @@ printf("Area of RECTANGLE = %2f\n",A);
 printf("Perimeter of RECTANGLE = %2f",P);
 return 0;
 }
+
