@@ -2,7 +2,7 @@
 int main(){
 int male,female;
 char students[50];
-printf("Enter gender of students B for boy and G for girl: ");
+printf("Enter gender of students B for boy and G for girl: \n");
 for(int i=0;i<50;i++){
 scanf(" %c",&students[i]);
 }
@@ -19,3 +19,4 @@ printf("There are %d boys \n",male);
 printf("There are %d girls ",female);
 return 0;
 }
+
