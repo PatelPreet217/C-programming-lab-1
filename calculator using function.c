@@ -34,6 +34,9 @@ int product( int a, int b){
 }
 
 float division( int a, int b){
+    if ( b == 0 ) {
+        printf("Cannot divided by zero. ");
+    }
     return ((float)a/b);
 
 }
